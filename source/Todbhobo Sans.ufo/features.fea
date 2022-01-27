@@ -1,0 +1,257 @@
+languagesystem bng2 dflt;
+
+
+# GSUB 
+
+
+lookup initInitialFormsinBengali2lookup0 {
+  lookupflag 0;
+    sub \u09C7 by \vowelsignebeng.aalt ;
+    sub \u09C8 by \vowelsignaibeng.aalt ;
+} initInitialFormsinBengali2lookup0;
+
+lookup nuktNuktaFormsinBengali2lookup1 {
+  lookupflag 0;
+    sub \u09A1 \u09BC  by \u09DC;
+    sub \u09A2 \u09BC  by \u09DD;
+    sub \u09AF \u09BC  by \u09DF;
+} nuktNuktaFormsinBengali2lookup1;
+
+lookup akhnAkhandinBengali2lookup2 {
+  lookupflag 0;
+    sub \u09A8 \u09CD \u09A1  by \na_hasanta_dda;
+    sub \u09AE \u09CD \u09AE  by \ma_signviramacombbeng.half_uni09AE.pres;
+    sub \u09B2 \u09CD \u09B2  by \la_signviramacombbeng.half_uni09B2.pres;
+    sub \u09A6 \u09CD \u09AD  by \da_hasanta_va;
+    sub \u09A8 \u09CD \u09B8  by \na_hasanta_sa;
+    sub \u09A8 \u09CD \u099F  by \na_hasanta_tta;
+    sub \u09B8 \u09CD \u0995  by \sa_hasanta_ka;
+} akhnAkhandinBengali2lookup2;
+
+lookup rphfRephForminBengali2lookup3 {
+  lookupflag 0;
+    sub \u09F0 \u09CD  by \ra_signviramacombbeng.rphf;
+    sub \u09B0 \u09CD  by \ra_signviramacombbeng.rphf;
+} rphfRephForminBengali2lookup3;
+
+lookup blwfBelowBaseFormsinBengali2lookup4 {
+  lookupflag 0;
+    sub \u09CD \u09F0  by \signviramacomb_rabeng.blwf;
+    sub \u09CD \u09B0  by \signviramacomb_rabeng.blwf;
+    sub \u09CD \u09F1  by \signviramacomb_babeng.blwf;
+    sub \u09CD \u09AC  by \signviramacomb_babeng.blwf;
+} blwfBelowBaseFormsinBengali2lookup4;
+
+lookup pstfPostBaseFormsinBengali2lookup5 {
+  lookupflag 0;
+    sub \u09CD \u09AF  by \ya_signviramacombbeng.pstf;
+    sub \u09AF \u09CD  by \ya_signviramacombbeng.pstf;
+} pstfPostBaseFormsinBengali2lookup5;
+
+lookup vatuVattuVariantsinBengali2lookup6 {
+  lookupflag 0;
+    sub \u09A4 \signviramacomb_rabeng.blwf  by \ta_signviramacomb_rabeng.blwf.vatu;
+} vatuVattuVariantsinBengali2lookup6;
+
+lookup prefPreBaseFormsinBengali2lookup7 {
+  lookupflag 0;
+    sub \u09AE \u09CD \u09AE  by \ma_signviramacombbeng.half_uni09AE.pres;
+} prefPreBaseFormsinBengali2lookup7;
+
+lookup abvsAboveBaseSubstitutionsinBengali2lookup8 {
+  lookupflag 0;
+    sub \u09BF \u0981  by \vowelsigni_signcandrabinducombbeng.abvs;
+    sub \u09C0 \u0981  by \vowelsignii_signcandrabinducombbeng.abvs;
+} abvsAboveBaseSubstitutionsinBengali2lookup8;
+
+feature init {
+
+ script bng2;
+     language dflt ;
+      lookup initInitialFormsinBengali2lookup0;
+} init;
+
+feature nukt {
+
+ script bng2;
+     language dflt ;
+      lookup nuktNuktaFormsinBengali2lookup1;
+} nukt;
+
+feature akhn {
+
+ script bng2;
+     language dflt ;
+      lookup akhnAkhandinBengali2lookup2;
+} akhn;
+
+feature rphf {
+
+ script bng2;
+     language dflt ;
+      lookup rphfRephForminBengali2lookup3;
+} rphf;
+
+feature blwf {
+
+ script bng2;
+     language dflt ;
+      lookup blwfBelowBaseFormsinBengali2lookup4;
+} blwf;
+
+feature pstf {
+
+ script bng2;
+     language dflt ;
+      lookup pstfPostBaseFormsinBengali2lookup5;
+} pstf;
+
+feature vatu {
+
+ script bng2;
+     language dflt ;
+      lookup vatuVattuVariantsinBengali2lookup6;
+} vatu;
+
+feature pref {
+
+ script bng2;
+     language dflt ;
+      lookup prefPreBaseFormsinBengali2lookup7;
+} pref;
+
+feature abvs {
+
+ script bng2;
+     language dflt ;
+      lookup abvsAboveBaseSubstitutionsinBengali2lookup8;
+} abvs;
+
+# GPOS 
+
+
+lookup blwmBelowBaseMarkinBengali2lookup0 {
+  lookupflag 0;
+  markClass [\u09C1 ] <anchor -1 0> @Anchor0;
+  markClass [\u09C2 ] <anchor -5 0> @Anchor0;
+  markClass [\u09C3 \signviramacomb_babeng.blwf ] <anchor 0 0> @Anchor0;
+  markClass [\signviramacomb_rabeng.blwf ] <anchor 100 50> @Anchor0;
+  pos base [\u0995 \sa_hasanta_ka ] <anchor 870 83> mark @Anchor0;
+  pos base [\u0996 \u09A5 ] <anchor 979 83> mark @Anchor0;
+  pos base [\u0997 ] <anchor 987 83> mark @Anchor0;
+  pos base [\u0998 ] <anchor 945 83> mark @Anchor0;
+  pos base [\u0999 ] <anchor 836 114> mark @Anchor0;
+  pos base [\u099A ] <anchor 571 105> mark @Anchor0;
+  pos base [\u099B ] <anchor 592 197> mark @Anchor0;
+  pos base [\u099C ] <anchor 1400 83> mark @Anchor0;
+  pos base [\u099D ] <anchor 1126 100> mark @Anchor0;
+  pos base [\u099F ] <anchor 600 111> mark @Anchor0;
+  pos base [\u09A0 ] <anchor 668 83> mark @Anchor0;
+  pos base [\u09A1 \na_hasanta_dda ] <anchor 775 114> mark @Anchor0;
+  pos base [\u09A2 ] <anchor 636 99> mark @Anchor0;
+  pos base [\u09A3 ] <anchor 933 83> mark @Anchor0;
+  pos base [\u09A4 ] <anchor 853 92> mark @Anchor0;
+  pos base [\u09A6 ] <anchor 880 83> mark @Anchor0;
+  pos base [\u09A7 ] <anchor 903 83> mark @Anchor0;
+  pos base [\u09A8 ] <anchor 956 83> mark @Anchor0;
+  pos base [\u09AA ] <anchor 967 83> mark @Anchor0;
+  pos base [\u09AB ] <anchor 883 83> mark @Anchor0;
+  pos base [\u09AC ] <anchor 912 83> mark @Anchor0;
+  pos base [\u09AD ] <anchor 836 99> mark @Anchor0;
+  pos base [\u09AE ] <anchor 950 70> mark @Anchor0;
+  pos base [\u09AF ] <anchor 923 83> mark @Anchor0;
+  pos base [\u09B0 ] <anchor 724 68> mark @Anchor0;
+  pos base [\u09B2 ] <anchor 1038 83> mark @Anchor0;
+  pos base [\u09B6 ] <anchor 972 83> mark @Anchor0;
+  pos base [\u09B7 ] <anchor 936 89> mark @Anchor0;
+  pos base [\u09B8 ] <anchor 944 83> mark @Anchor0;
+  pos base [\u09B9 ] <anchor 517 199> mark @Anchor0;
+  pos base [\u09DC ] <anchor 535 -2> mark @Anchor0;
+  pos base [\u09DD ] <anchor 588 -93> mark @Anchor0;
+  pos base [\u09DF ] <anchor 771 119> mark @Anchor0;
+  pos base [\ta_signviramacomb_rabeng.blwf.vatu ] <anchor 810 83> mark @Anchor0;
+  pos base [\ma_signviramacombbeng.half_uni09AE.pres ] <anchor 963 83> mark @Anchor0;
+  pos base [\la_signviramacombbeng.half_uni09B2.pres ] <anchor 839 65> mark @Anchor0;
+  pos base [\na_hasanta_tta ] <anchor 920 83> mark @Anchor0;
+  markClass [\u098C \u09BC \u09BD \u09C3 \u09C4 \u09CD \u09E0 \u09E1 \u09E2 \u09E3 \u09F0 \u09F1 \u09F2 \u09F4 \u09F5 \u09F6 \u09F8 \u09F9 \u09FA \signviramacomb_babeng.blwf ] <anchor 0 0> @Anchor1;
+  markClass [\u09C1 \signviramacomb_rabeng.blwf ] <anchor -1 0> @Anchor1;
+  markClass [\u09C2 ] <anchor -5 0> @Anchor1;
+  pos base [\u0995 ] <anchor 800 24> mark @Anchor1;
+  pos base [\u0996 ] <anchor 870 83> mark @Anchor1;
+  pos base [\u0997 ] <anchor 904 152> mark @Anchor1;
+  pos base [\u0998 ] <anchor 836 -52> mark @Anchor1;
+  pos base [\u099A ] <anchor 852 -72> mark @Anchor1;
+  pos base [\u099B ] <anchor 1068 -24> mark @Anchor1;
+  pos base [\u099C ] <anchor 992 -36> mark @Anchor1;
+  pos base [\u099D ] <anchor 876 -64> mark @Anchor1;
+  pos base [\u099F \u09A2 \u09DD ] <anchor 780 -36> mark @Anchor1;
+  pos base [\u09A0 ] <anchor 808 -4> mark @Anchor1;
+  pos base [\u09A1 \u09DC ] <anchor 956 -16> mark @Anchor1;
+  pos base [\u09A3 ] <anchor 868 102> mark @Anchor1;
+  pos base [\u09A4 ] <anchor 916 36> mark @Anchor1;
+  pos base [\u09A5 ] <anchor 928 -16> mark @Anchor1;
+  pos base [\u09A6 ] <anchor 856 204> mark @Anchor1;
+  pos base [\u09A7 ] <anchor 832 -4> mark @Anchor1;
+  pos base [\u09A8 ] <anchor 860 -28> mark @Anchor1;
+  pos base [\u09AA ] <anchor 892 116> mark @Anchor1;
+  pos base [\u09AB ] <anchor 876 -32> mark @Anchor1;
+  pos base [\u09AC ] <anchor 796 8> mark @Anchor1;
+  pos base [\u09AD ] <anchor 908 -28> mark @Anchor1;
+  pos base [\u09AE ] <anchor 864 -84> mark @Anchor1;
+  pos base [\u09AF \u09DF ] <anchor 856 -36> mark @Anchor1;
+  pos base [\u09B0 ] <anchor 780 -16> mark @Anchor1;
+  pos base [\u09B2 ] <anchor 984 48> mark @Anchor1;
+  pos base [\u09B6 ] <anchor 1000 232> mark @Anchor1;
+  pos base [\u09B8 ] <anchor 936 104> mark @Anchor1;
+  pos base [\u09B9 ] <anchor 904 -20> mark @Anchor1;
+} blwmBelowBaseMarkinBengali2lookup0;
+
+lookup blwmBelowBaseMarkinBengali2lookup1 {
+  lookupflag 0;
+  markClass [\u098C \u09BC \u09BD \u09C3 \u09C4 \u09CD \u09E0 \u09E1 \u09E2 \u09E3 \u09F0 \u09F1 \u09F2 \u09F4 \u09F5 \u09F6 \u09F8 \u09F9 \u09FA \signviramacomb_babeng.blwf ] <anchor 0 0> @Anchor2;
+  markClass [\u09C1 \signviramacomb_rabeng.blwf ] <anchor -1 0> @Anchor2;
+  markClass [\u09C2 ] <anchor -5 0> @Anchor2;
+  pos mark [\signviramacomb_rabeng.blwf ] <anchor 32 -130> mark @Anchor2;
+  pos mark [\signviramacomb_babeng.blwf ] <anchor -26 -265> mark @Anchor2;
+} blwmBelowBaseMarkinBengali2lookup1;
+
+feature blwm {
+
+ script bng2;
+     language dflt ;
+      lookup blwmBelowBaseMarkinBengali2lookup0;
+      lookup blwmBelowBaseMarkinBengali2lookup1;
+} blwm;
+
+@GDEF_Simple = [\space \exclam \quotedbl \numbersign \dollar \percent \ampersand 
+	\quotesingle \parenleft \parenright \asterisk \plus \comma \hyphen \period 
+	\slash \zero \one \two \three \four \five \six \seven \eight \nine \colon \semicolon 
+	\less \equal \greater \question \at \A \B \C \D \E \F \G \H \I \J \K \L \M \N \O \P \Q \R \S \T 
+	\U \V \W \X \Y \Z \bracketleft \backslash \bracketright \asciicircum \underscore 
+	\grave \a \b \c \d \e \f \g \h \i \j \k \l \m \n \o \p \q \r \s \t \u \v \w \x \y \z \braceleft \bar 
+	\braceright \asciitilde \cent \dieresis \acute \periodcentered \cedilla 
+	\questiondown \multiply \divide \circumflex \caron \ring \u0964 \u0965 \u0981 
+	\u0982 \u0983 \u0985 \u0986 \u0987 \u0988 \u0989 \u098A \u098B \u098C \u098F \u0990 
+	\u0993 \u0994 \u0995 \u0996 \u0997 \u0998 \u0999 \u099A \u099B \u099C \u099D \u099E 
+	\u099F \u09A0 \u09A1 \u09A2 \u09A3 \u09A4 \u09A5 \u09A6 \u09A7 \u09A8 \u09AA \u09AB 
+	\u09AC \u09AD \u09AE \u09AF \u09B0 \u09B2 \u09B6 \u09B7 \u09B8 \u09B9 \u09BD \u09BE 
+	\u09BF \u09C0 \u09C4 \u09C7 \u09C8 \u09CB \u09CC \u09CD \u09CE \u09D7 \u09DC \u09DD 
+	\u09DF \u09E0 \u09E1 \u09E2 \u09E3 \u09E6 \u09E7 \u09E8 \u09E9 \u09EA \u09EB \u09EC 
+	\u09ED \u09EE \u09EF \u09F0 \u09F1 \u09F2 \u09F3 \u09F4 \u09F5 \u09F6 \u09F7 \u09F8 
+	\u09F9 \u09FA \u200C \u200D \endash \emdash \quoteleft \quoteright \quotedblleft 
+	\quotedblright \ellipsis \minus \u25CC \na_hasanta_dda 
+	\ma_signviramacombbeng.half_uni09AE.pres 
+	\la_signviramacombbeng.half_uni09B2.pres \na_hasanta_tta \sa_hasanta_ka 
+	\vowelsigni_signcandrabinducombbeng.abvs ];
+@GDEF_Ligature = [\ya_signviramacombbeng.pstf 
+	\ta_signviramacomb_rabeng.blwf.vatu \da_hasanta_va \na_hasanta_sa 
+	\vowelsignii_signcandrabinducombbeng.abvs \vowelsignaibeng.aalt 
+	\ra_signviramacombbeng.rphf ];
+@GDEF_Mark = [\u09BC \u09C1 \u09C2 \u09C3 \vowelsignebeng.aalt 
+	\signviramacomb_rabeng.blwf \signviramacomb_babeng.blwf ];
+
+table GDEF {
+  GlyphClassDef @GDEF_Simple, @GDEF_Ligature, @GDEF_Mark, ;
+
+} GDEF;
+

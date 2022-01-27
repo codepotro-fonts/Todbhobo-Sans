@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+  <dict>
+    <key>familyName</key>
+    <string>Todbhobo Sans</string>
+    <key>styleName</key>
+    <string>Regular</string>
+    <key>styleMapFamilyName</key>
+    <string>Todbhobo Sans</string>
+    <key>versionMajor</key>
+    <integer>0</integer>
+    <key>versionMinor</key>
+    <integer>9</integer>
+    <key>copyright</key>
+    <string>Copyright © Codepotro. All Rights Reserved.</string>
+    <key>unitsPerEm</key>
+    <integer>2048</integer>
+    <key>capHeight</key>
+    <integer>1369</integer>
+    <key>xHeight</key>
+    <integer>1286</integer>
+    <key>ascender</key>
+    <integer>1638</integer>
+    <key>descender</key>
+    <integer>-410</integer>
+    <key>italicAngle</key>
+    <real>0</real>
+    <key>openTypeHeadCreated</key>
+    <string>2022/01/27 06:53:32</string>
+    <key>openTypeHheaAscender</key>
+    <integer>2060</integer>
+    <key>openTypeHheaDescender</key>
+    <integer>-824</integer>
+    <key>openTypeHheaLineGap</key>
+    <integer>0</integer>
+    <key>openTypeNameDesigner</key>
+    <string>Jayed Ahsan Saad</string>
+    <key>openTypeNameDesignerURL</key>
+    <string>https://codepotro.com</string>
+    <key>openTypeNameManufacturer</key>
+    <string>Codepotro</string>
+    <key>openTypeNameManufacturerURL</key>
+    <string>https://codepotro.com</string>
+    <key>openTypeNameLicense</key>
+    <string>This font is Licensed Under: CC BY-ND 4.0. You can find more information about this license from here: https://creativecommons.org/licenses/by-nd/4.0/</string>
+    <key>openTypeNameLicenseURL</key>
+    <string>https://creativecommons.org/licenses/by-nd/4.0/</string>
+    <key>openTypeNameVersion</key>
+    <string>0.9</string>
+    <key>openTypeNameUniqueID</key>
+    <string>TodbhoboSans</string>
+    <key>openTypeNameDescription</key>
+    <string>Copyright © Codepotro. All Rights Reserved.</string>
+    <key>openTypeOS2Panose</key>
+    <array>
+      <integer>2</integer>
+      <integer>0</integer>
+      <integer>5</integer>
+      <integer>0</integer>
+      <integer>0</integer>
+      <integer>0</integer>
+      <integer>0</integer>
+      <integer>0</integer>
+      <integer>0</integer>
+      <integer>0</integer>
+    </array>
+    <key>openTypeOS2WidthClass</key>
+    <integer>5</integer>
+    <key>openTypeOS2WeightClass</key>
+    <integer>400</integer>
+    <key>openTypeOS2VendorID</key>
+    <string>CPF </string>
+    <key>openTypeOS2FamilyClass</key>
+    <array>
+      <integer>0</integer>
+      <integer>0</integer>
+    </array>
+    <key>openTypeOS2Type</key>
+    <array/>
+    <key>openTypeOS2TypoAscender</key>
+    <integer>2060</integer>
+    <key>openTypeOS2TypoDescender</key>
+    <integer>-824</integer>
+    <key>openTypeOS2TypoLineGap</key>
+    <integer>0</integer>
+    <key>openTypeOS2WinAscent</key>
+    <integer>2060</integer>
+    <key>openTypeOS2WinDescent</key>
+    <integer>824</integer>
+    <key>openTypeOS2SubscriptXSize</key>
+    <integer>1434</integer>
+    <key>openTypeOS2SubscriptYSize</key>
+    <integer>1331</integer>
+    <key>openTypeOS2SubscriptXOffset</key>
+    <integer>0</integer>
+    <key>openTypeOS2SubscriptYOffset</key>
+    <integer>307</integer>
+    <key>openTypeOS2SuperscriptXSize</key>
+    <integer>1434</integer>
+    <key>openTypeOS2SuperscriptYSize</key>
+    <integer>1331</integer>
+    <key>openTypeOS2SuperscriptXOffset</key>
+    <integer>0</integer>
+    <key>openTypeOS2SuperscriptYOffset</key>
+    <integer>922</integer>
+    <key>openTypeOS2StrikeoutSize</key>
+    <integer>50</integer>
+    <key>openTypeOS2StrikeoutPosition</key>
+    <integer>250</integer>
+    <key>openTypeOS2UnicodeRanges</key>
+    <array>
+      <integer>0</integer>
+      <integer>16</integer>
+    </array>
+    <key>openTypeOS2CodePageRanges</key>
+    <array>
+      <integer>0</integer>
+    </array>
+    <key>postscriptFontName</key>
+    <string>TodbhoboSansRegular</string>
+    <key>postscriptFullName</key>
+    <string>Todbhobo Sans</string>
+    <key>postscriptWeightName</key>
+    <string>Book</string>
+    <key>postscriptUnderlineThickness</key>
+    <integer>20</integer>
+    <key>postscriptUnderlinePosition</key>
+    <integer>-317</integer>
+    <key>guidelines</key>
+    <array/>
+  </dict>
+</plist>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="signviramacomb_rabeng.blwf" format="2">
+  <advance width="0"/>
+  <anchor x="32" y="-130" name="Anchor-2"/>
+  <anchor x="-1" y="0" name="_Anchor-2"/>
+  <anchor x="-1" y="0" name="_Anchor-1"/>
+  <anchor x="100" y="50" name="_Anchor-0"/>
+  <outline>
+    <contour>
+      <point x="-48" y="-198" type="line"/>
+      <point x="-48" y="-198" type="line"/>
+      <point x="-48" y="-81" type="line"/>
+      <point x="-489" y="-81" type="line" smooth="yes"/>
+      <point x="-533" y="-81"/>
+      <point x="-596" y="-30"/>
+      <point x="-596" y="7" type="qcurve" smooth="yes"/>
+      <point x="-596" y="46" type="line"/>
+      <point x="-714" y="46" type="line"/>
+      <point x="-714" y="7" type="line" smooth="yes"/>
+      <point x="-714" y="-78"/>
+      <point x="-582" y="-198"/>
+      <point x="-489" y="-198" type="qcurve" smooth="yes"/>
+    </contour>
+  </outline>
+</glyph>
